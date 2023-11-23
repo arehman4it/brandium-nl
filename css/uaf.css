@@ -1,0 +1,73 @@
+				@font-face {
+					font-family: 'twklausanne';
+					src: url('../fonts/8186twklausanne.woff2') format('woff2'),
+						url('../fonts/8186twklausanne.woff') format('woff');
+					font-weight: 300; font-style: normal; font-display: auto;
+				}
+
+				.twklausanne{font-family: 'twklausanne' !important;}
+
+						@font-face {
+					font-family: 'twklausanne';
+					src: url('../fonts/1780twklausanne.woff2') format('woff2'),
+						url('../fonts/1780twklausanne.woff') format('woff');
+					font-weight: 600; font-style: normal; font-display: auto;
+				}
+
+				.twklausanne{font-family: 'twklausanne' !important;}
+
+						@font-face {
+					font-family: 'twklausanne';
+					src: url('../fonts/3413twklausanne.woff2') format('woff2'),
+						url('../fonts/3413twklausanne.woff') format('woff');
+					font-weight: 700; font-style: normal; font-display: auto;
+				}
+
+				.twklausanne{font-family: 'twklausanne' !important;}
+
+						@font-face {
+					font-family: 'iskry';
+					src: url('../fonts/821Iskry.woff2') format('woff2'),
+						url('../fonts/821Iskry.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.iskry{font-family: 'iskry' !important;}
+
+						@font-face {
+					font-family: 'iskry-bold';
+					src: url('../fonts/6104Iskry-bold.woff2') format('woff2'),
+						url('../fonts/6104Iskry-bold.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.iskry-bold{font-family: 'iskry-bold' !important;}
+
+						@font-face {
+					font-family: 'twklausanne';
+					src: url('../fonts/4076twklausanne.woff2') format('woff2'),
+						url('../fonts/4076twklausanne.woff') format('woff');
+					font-weight: 200; font-style: normal; font-display: auto;
+				}
+
+				.twklausanne{font-family: 'twklausanne' !important;}
+
+						@font-face {
+					font-family: 'twklausanne';
+					src: url('../fonts/6035twklausanne.woff2') format('woff2'),
+						url('../fonts/6035twklausanne.woff') format('woff');
+					font-weight: 200; font-style: normal; font-display: auto;
+				}
+
+				.twklausanne{font-family: 'twklausanne' !important;}
+
+						@font-face {
+					font-family: 'neuemachina';
+					src: url('../fonts/3856NeueMachina.woff2') format('woff2'),
+						url('../fonts/3856NeueMachina.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.neuemachina{font-family: 'neuemachina' !important;}
+
+		

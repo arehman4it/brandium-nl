@@ -1,0 +1,106 @@
+.cap_button.cap_intro_what_we_do {
+   padding-top: 12px;
+   padding-bottom: 15px;
+   border: 2px solid #0e3a2d;
+   background-color: transparent;
+}
+
+.cap_w-inline-block {
+   max-width: 100%;
+   display: inline-block;
+}
+
+.cap_button {
+   transition: transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948),
+      background 0s linear;
+   transition-delay: 0s, 0s;
+   transition-delay: 0s, 0.3s;
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   padding: 14px 27px 17px;
+   border-radius: 100px;
+   background-color: #0e3a2d;
+   text-decoration: none;
+}
+
+.cap_button::after {
+   content: "";
+   display: inline-block;
+   width: 14px;
+   height: 14px;
+   border-radius: 50%;
+   background: #f1ff4e;
+   transition: transform 0.5s cubic-bezier(0.84, -0.01, 0.25, 0.99);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 27px;
+   margin: auto 0;
+}
+
+.cap_button:hover,
+.cap_button:focus {
+   background: transparent;
+   transform: scale(1.1);
+}
+
+.cap_button:hover::after,
+.cap_button:focus::after {
+   transform: scale(50);
+}
+
+/* button-text */
+.cap_button-text {
+   z-index: 1;
+   display: inline-block;
+   transition: color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+   font-size: 24px;
+}
+
+/* button-content-wrap */
+.cap_button-content-wrap {
+   position: relative;
+   z-index: 1;
+   transition: transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948);
+}
+
+.cap_button:hover .cap_button-content-wrap,
+.cap_button:focus .cap_button-content-wrap
+ {
+   transform: scale(0.909);
+}
+
+.cap_button:hover .cap_button-content-wrap::after,
+.cap_button:focus .cap_button-content-wrap::after
+{
+   opacity: 1;
+}
+
+.cap_button-content-wrap::after {
+   content: "";
+   display: inline-block;
+   height: 12px;
+   width: 12px;
+   background-image: url("../images/arrow.png"), url("../images/arrow.png");
+   background-position: 0 0px, -15px -15px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   vertical-align: middle;
+   opacity: 0;
+   transition: opacity 0.5s cubic-bezier(0.84, -0.01, 0.25, 0.99);
+   margin-left: 22px;
+   animation-name: buttonArrow;
+   animation-duration: 0.7s;
+   animation-iteration-count: infinite;
+}
+
+/* button-animation */
+@keyframes buttonArrow {
+   from {
+      background-position: 0 0px, -15px 15px;
+   }
+   to {
+      background-position: 15px -15px, 0 0;
+   }
+}
